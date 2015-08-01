@@ -4,7 +4,8 @@ module.exports = {
   entry: './index.js',
   output: {
     path: __dirname + '/dist',
-    filename: "tag-input.js"
+    filename: "tag-input.js",
+    libraryTarget: 'umd'
   },
   module: {
     loaders: [
@@ -18,8 +19,5 @@ module.exports = {
         loaders: ["style-loader", "css-loader"]
       }
     ]
-  },
-  externals: {
-    "react": "React"
   }
 };

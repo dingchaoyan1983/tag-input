@@ -1,6 +1,6 @@
 {
   "name": "tag-input.dane",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a react tag-input component",
   "main": "./dist/tag-input.js",
   "scripts": {
