@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-  entry: './index.js',
+  entry: './src/index.js',
   output: {
     path: __dirname + '/dist',
     filename: "tag-input.js",
@@ -19,5 +19,8 @@ module.exports = {
         loaders: ["style-loader", "css-loader"]
       }
     ]
+  },
+  externals: {
+    "react": "React"
   }
 };

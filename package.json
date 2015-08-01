@@ -2,7 +2,7 @@
   "name": "tag-input.dane",
   "version": "1.0.2",
   "description": "a react tag-input component",
-  "main": "./dist/tag-input.js",
+  "main": "./lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,8 @@
   "devDependencies": {
     "babel-loader": "^5.3.1",
     "css-loader": "^0.15.5",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
     "style-loader": "^0.12.3",
     "webpack": "^1.10.1"
   },
